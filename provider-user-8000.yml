@@ -19,7 +19,7 @@ mybatis-plus:
   mapper-locations: classpath:/mybatis/mappers/*.xml
   #开启驼峰映射
   configuration:
-    map-underscore-to-camel-case: true
+    map-underscore-to-camel-case: false
 
 eureka:
   client:
